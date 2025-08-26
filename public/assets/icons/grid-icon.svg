@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="2.5" width="25" height="25" rx="3.5" stroke="#6DBA28" stroke-width="5" stroke-linejoin="bevel"/>
+<rect x="2.5" y="36.5" width="25" height="25" rx="3.5" stroke="#6DBA28" stroke-width="5" stroke-linejoin="bevel"/>
+<rect x="36.5" y="2.5" width="25" height="25" rx="3.5" stroke="#6DBA28" stroke-width="5" stroke-linejoin="bevel"/>
+<rect x="36.5" y="36.5" width="25" height="25" rx="3.5" stroke="#6DBA28" stroke-width="5" stroke-linejoin="bevel"/>
+</svg>
