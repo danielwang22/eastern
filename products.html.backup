@@ -981,16 +981,16 @@
                                 class="w-tabs"
                             >
                                 <div class="shop-bar w-tab-menu">
-                                    <a data-w-tab="Tab 1" class="grid-list-view w-inline-block w-tab-link w--current">
-                                        <img
+                                    <a data-w-tab="Tab 1" class="grid-list-view w-inline-block w-tab-link w--current"
+                                        ><img
                                             loading="lazy"
                                             src="./public/assets/icons/grid-icon.svg"
                                             alt=""
                                             class="_20px-image"
                                         />
                                     </a>
-                                    <a data-w-tab="Tab 2" class="grid-list-view w-inline-block w-tab-link">
-                                        <img
+                                    <a data-w-tab="Tab 2" class="grid-list-view w-inline-block w-tab-link"
+                                        ><img
                                             loading="lazy"
                                             src="./public/assets/icons/list-icon.svg"
                                             alt=""
@@ -1014,8 +1014,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1134,8 +1134,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1253,8 +1253,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1372,8 +1372,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1491,8 +1491,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1610,8 +1610,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1729,8 +1729,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1848,8 +1848,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -1967,8 +1967,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2098,6 +2098,7 @@
                                                         ></path>
                                                     </svg>
                                                 </a>
+                                                <link rel="prerender" href="?6e7417ba_page=2" />
                                             </div>
                                         </div>
                                     </div>
@@ -2116,8 +2117,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2227,8 +2228,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2338,8 +2339,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2449,8 +2450,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2560,8 +2561,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2671,8 +2672,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2782,8 +2783,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -2893,8 +2894,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -3004,8 +3005,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -3115,8 +3116,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -3226,8 +3227,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -3337,8 +3338,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -3448,8 +3449,8 @@
                                                                 src="./public/assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
-                                                            <a href="#" class="w-inline-block">
-                                                                <img
+                                                            <a href="#" class="w-inline-block"
+                                                                ><img
                                                                     style="
                                                                         opacity: 0;
                                                                         -webkit-transform: translate3d(0, 0, 0)
@@ -3571,6 +3572,7 @@
                                                         ></path>
                                                     </svg>
                                                 </a>
+                                                <link rel="prerender" href="?6baff3ff_page=2" />
                                             </div>
                                         </div>
                                     </div>
