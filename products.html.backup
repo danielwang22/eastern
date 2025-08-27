@@ -984,7 +984,7 @@
                                     <a data-w-tab="Tab 1" class="grid-list-view w-inline-block w-tab-link w--current"
                                         ><img
                                             loading="lazy"
-                                            src="./public/assets/icons/grid-icon.svg"
+                                            src="./assets/icons/grid-icon.svg"
                                             alt=""
                                             class="_20px-image"
                                         />
@@ -992,7 +992,7 @@
                                     <a data-w-tab="Tab 2" class="grid-list-view w-inline-block w-tab-link"
                                         ><img
                                             loading="lazy"
-                                            src="./public/assets/icons/list-icon.svg"
+                                            src="./assets/icons/list-icon.svg"
                                             alt=""
                                             class="_20px-image"
                                         />
@@ -1011,7 +1011,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1030,7 +1030,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1131,7 +1131,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1150,7 +1150,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1250,7 +1250,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1269,7 +1269,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1369,7 +1369,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1388,7 +1388,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1488,7 +1488,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1507,7 +1507,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1607,7 +1607,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1626,7 +1626,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1726,7 +1726,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1745,7 +1745,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1845,7 +1845,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1864,7 +1864,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -1964,7 +1964,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -1983,7 +1983,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2114,7 +2114,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2133,7 +2133,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2225,7 +2225,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2244,7 +2244,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2336,7 +2336,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2355,7 +2355,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2447,7 +2447,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2466,7 +2466,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2558,7 +2558,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2577,7 +2577,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2669,7 +2669,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2688,7 +2688,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2780,7 +2780,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2799,7 +2799,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -2891,7 +2891,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -2910,7 +2910,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -3002,7 +3002,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -3021,7 +3021,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -3113,7 +3113,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -3132,7 +3132,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -3224,7 +3224,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -3243,7 +3243,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -3335,7 +3335,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -3354,7 +3354,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -3446,7 +3446,7 @@
                                                             <img
                                                                 loading="lazy"
                                                                 alt=""
-                                                                src="./public/assets/images/Single-Monitor-Arm-blank.webp"
+                                                                src="./assets/images/Single-Monitor-Arm-blank.webp"
                                                                 class="product-thumbnail"
                                                             />
                                                             <a href="#" class="w-inline-block"
@@ -3465,7 +3465,7 @@
                                                                     "
                                                                     loading="lazy"
                                                                     alt=""
-                                                                    src="./public/assets/images/Single-Monitor-Arm.webp"
+                                                                    src="./assets/images/Single-Monitor-Arm.webp"
                                                                     class="show-on-hover"
                                                                 />
                                                             </a>
@@ -3681,7 +3681,7 @@
                         <div class="footer-block first-block" style="grid-row-gap: 20px">
                             <a href="#" class="navbar-logo-wrapper w-nav-brand">
                                 <img
-                                    src="./public/assets/images/logo-circle.png"
+                                    src="./assets/images/logo-circle.png"
                                     loading="lazy"
                                     width="70"
                                     alt=""
@@ -3830,7 +3830,7 @@
                 bottom: 0;
                 right: 0;
                 z-index: -1;
-                background-image: url('./public/assets/images/MacBook Pro Wallpaper.jpg') !important;
+                background-image: url('./assets/images/MacBook Pro Wallpaper.jpg') !important;
             }
 
             .w-webflow-badge {
