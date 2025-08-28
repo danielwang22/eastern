@@ -3548,12 +3548,24 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div role="navigation" aria-label="List" class="w-pagination-wrapper">
-                                                <a
-                                                    href="?6baff3ff_page=2"
-                                                    aria-label="Next Page"
-                                                    class="w-pagination-next pagination-button"
-                                                >
+                                            <div role="navigation" aria-label="List" class="w-pagination-wrapper pagination">
+                                                <a href="#" aria-label="Prev Page" class="w-pagination-next pagination-button">
+                                                    <svg
+                                                        class="w-pagination-next-icon"
+                                                        height="12px"
+                                                        width="12px"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 12 12"
+                                                        transform="translate(0, 1)"
+                                                    >
+                                                        <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"></path>
+                                                    </svg>
+                                                    <div class="w-inline-block">Prev</div>
+                                                </a>
+                                                <a href="#" aria-label="1" class="pg-button pg-current">1</a>
+                                                <a href="#" aria-label="1" class="pg-button">2</a>
+                                                <a href="#" aria-label="1" class="pg-button">3</a>
+                                                <a href="#" aria-label="Next Page" class="w-pagination-next pagination-button">
                                                     <div class="w-inline-block">Next</div>
                                                     <svg
                                                         class="w-pagination-next-icon"
@@ -3563,15 +3575,33 @@
                                                         viewBox="0 0 12 12"
                                                         transform="translate(0, 1)"
                                                     >
-                                                        <path
-                                                            fill="none"
-                                                            stroke="currentColor"
-                                                            fill-rule="evenodd"
-                                                            d="M4 2l4 4-4 4"
-                                                        ></path>
+                                                        <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"></path>
                                                     </svg>
                                                 </a>
+                                                <link rel="prerender" href="#" />
                                             </div>
+                                            <style>
+                                                .w-pagination-next[aria-label="Prev Page"] {
+                                                    background-color: #eaf3e4;
+                                                    color: #0c0c0c;
+                                                    opacity: 0.3;
+                                                }
+                                                .w-pagination-next[aria-label="Prev Page"] svg {
+                                                    transform: rotate(180deg);
+                                                }
+                                                .pg-button {
+                                                    margin-top: 40px;
+                                                    padding: 9px 20px;
+                                                    background-color: #eaf3e4;
+                                                    border-radius: 999px;
+                                                    margin-left: 16px;
+                                                }
+                                                .pg-button:hover, .pg-button:focus, .pg-button:active, .pg-button.pg-current {
+                                                    background-color: #6dba28;
+                                                    color: #fff;
+                                                    transition: all .3s ease-in-out;
+                                                }
+                                            </style>
                                         </div>
                                     </div>
                                 </div>
