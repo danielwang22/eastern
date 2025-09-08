@@ -148,50 +148,6 @@
                     <a id="HeaderTopLogo" href="#" class="site-logo-wrapper w-nav-brand">
                         <img width="70" loading="lazy" alt="" src="./assets/images/logo-text.png?v=9300ef23" class="site-logo" />
                     </a>
-                    <div class="header-info-block-on-desktop">
-                        <div class="horizontal-left-center-15px-gap">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde5fcc10c08c23d5096b6_telephone.avif"
-                                alt=""
-                                class="image-35px"
-                            />
-                            <div class="w-layout-vflex">
-                                <div class="_14px-primary-700">聯絡我們</div>
-                                <p class="_14px-text">+886-2-2226-2887</p>
-                            </div>
-                        </div>
-                        <div class="divider-40px-height"></div>
-                        <div class="horizontal-left-center-15px-gap">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/66c3997beecca13c80050abb/66c3997beecca13c80050c14_letter.png"
-                                alt=""
-                                class="image-35px"
-                            />
-                            <div class="w-layout-vflex">
-                                <div class="_14px-primary-700">Email 我們</div>
-                                <p class="_14px-text">service@eg.com.tw</p>
-                            </div>
-                        </div>
-                        <div class="divider-40px-height"></div>
-                        <div class="horizontal-left-center-15px-gap">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde5fcc10c08c23d5096e0_office-building.avif"
-                                alt=""
-                                class="image-35px"
-                            />
-                            <div class="w-layout-vflex header-info">
-                                <div class="_14px-primary-700">公司地址</div>
-                                <p class="_14px-text">新北市中和區板南路659號9樓</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="social-icons-desktop">
-                        <a href="https://www.facebook.com/" target="_blank" class="social-icon-transparent-border">  </a>
-                        <a href="https://www.youtube.com/" target="_blank" class="social-icon-transparent-border youtube">  </a>
-                    </div>
                 </div>
             </div>
         </section>
@@ -787,6 +743,11 @@
             </nav>
         </div>
         <style>
+            .header-section .container .header {
+                display: none;
+                justify-content: center;
+            }
+
             .nav-link.w--current {
                 color: #0c0c0c;
             }
@@ -799,12 +760,26 @@
                 display: none;
             }
 
+            .navbar-main {
+                box-shadow: 0 10px 50px #0000001c;
+                border: 1px solid #ececec;
+            }
+
             .nav-link:hover,
             .nav-link:focus {
                 color: var(--theme-1-colors--primary) !important;
             }
 
+            @media screen and (min-width: 992.1px) {
+                .navbar-rounded {
+                    margin-top: 0rem;
+                }
+            }
+
             @media screen and (max-width: 992px) {
+                .header-section .container .header {
+                    display: flex;
+                }
                 #HeaderTopLogo {
                     opacity: 1;
                 }
