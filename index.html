@@ -146,50 +146,6 @@
                     <a id="HeaderTopLogo" href="#" class="site-logo-wrapper w-nav-brand">
                         <img width="70" loading="lazy" alt="" src="./assets/images/logo-text.png" class="site-logo" />
                     </a>
-                    <div class="header-info-block-on-desktop">
-                        <div class="horizontal-left-center-15px-gap">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde5fcc10c08c23d5096b6_telephone.avif"
-                                alt=""
-                                class="image-35px"
-                            />
-                            <div class="w-layout-vflex">
-                                <div class="_14px-primary-700">聯絡我們</div>
-                                <p class="_14px-text">+886-2-2226-2887</p>
-                            </div>
-                        </div>
-                        <div class="divider-40px-height"></div>
-                        <div class="horizontal-left-center-15px-gap">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/66c3997beecca13c80050abb/66c3997beecca13c80050c14_letter.png"
-                                alt=""
-                                class="image-35px"
-                            />
-                            <div class="w-layout-vflex">
-                                <div class="_14px-primary-700">Email 我們</div>
-                                <p class="_14px-text">service@eg.com.tw</p>
-                            </div>
-                        </div>
-                        <div class="divider-40px-height"></div>
-                        <div class="horizontal-left-center-15px-gap">
-                            <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde5fcc10c08c23d5096e0_office-building.avif"
-                                alt=""
-                                class="image-35px"
-                            />
-                            <div class="w-layout-vflex header-info">
-                                <div class="_14px-primary-700">公司地址</div>
-                                <p class="_14px-text">新北市中和區板南路659號9樓</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="social-icons-desktop">
-                        <a href="https://www.facebook.com/" target="_blank" class="social-icon-transparent-border">  </a>
-                        <a href="https://www.youtube.com/" target="_blank" class="social-icon-transparent-border youtube">  </a>
-                    </div>
                 </div>
             </div>
         </section>
@@ -785,6 +741,11 @@
             </nav>
         </div>
         <style>
+            .header-section .container .header {
+                display: none;
+                justify-content: center;
+            }
+
             .nav-link.w--current {
                 color: #0c0c0c;
             }
@@ -797,12 +758,26 @@
                 display: none;
             }
 
+            .navbar-main {
+                box-shadow: 0 10px 50px #0000001c;
+                border: 1px solid #ececec;
+            }
+
             .nav-link:hover,
             .nav-link:focus {
                 color: var(--theme-1-colors--primary) !important;
             }
 
+            @media screen and (min-width: 992.1px) {
+                .navbar-rounded {
+                    margin-top: 0rem;
+                }
+            }
+
             @media screen and (max-width: 992px) {
+                .header-section .container .header {
+                    display: flex;
+                }
                 #HeaderTopLogo {
                     opacity: 1;
                 }
@@ -999,7 +974,7 @@
                                 <img
                                     width="70"
                                     alt=""
-                                    src="https://cdn.ready-market.com.tw/59102cd9/Templates/pic/CPU-Holder.jpg"
+                                    src="./assets/images/懸掛式電腦主機架.jpg"
                                     loading="lazy"
                                     class="top-category-image landscape"
                                 />
@@ -1247,7 +1222,7 @@
                 }
             </style>
             <!-- 精選產品 -->
-            <section class="section bg-section">
+            <section class="section bg-section" style="margin-bottom: 0">
                 <div class="container">
                     <div class="product-bar">
                         <div class="product-bar-texts">
@@ -2943,6 +2918,49 @@
                         </div>
                     </div>
                 </div>
+                <!--  -->
+                <div class="container section _3-column-section" style="margin-bottom: 0">
+                    <img
+                        sizes="(max-width: 767px) 100vw, 33vw"
+                        srcset="
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001-p-500.avif   500w,
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001-p-800.avif   800w,
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001-p-1080.avif 1080w,
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001-p-1600.avif 1600w,
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001-p-2000.avif 2000w,
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001-p-2600.avif 2600w,
+                            https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001.avif        6000w
+                        "
+                        alt=""
+                        src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb681a3dcedfbee4797a1d_pexels-xexusdesigner-777001.avif"
+                        loading="lazy"
+                        class="portrait-image-600px"
+                        style="border-bottom-left-radius: 0.9375rem; border-top-left-radius: 0.9375rem; overflow: hidden"
+                    />
+                    <div class="space-between-banner" style="height: 100%">
+                        <div class="banner-title">最新上架</div>
+                        <div class="margin-20px">
+                            <h2 class="white-heading">螢幕支架該怎麼選？</h2>
+                        </div>
+                        <a
+                            data-w-id="38946bc3-59ce-2312-103a-aa6668b7fbab"
+                            href="/shop/index.html"
+                            class="primary-button white-btn w-inline-block"
+                            ><div class="button-text-wrapper">
+                                <div class="default-text">SEE MORE</div>
+                                <div class="hover-text">SEE MORE</div>
+                            </div>
+                            <div class="button-hover-circle white"></div
+                        ></a>
+                    </div>
+                    <img
+                        alt=""
+                        src="./assets/images/螢幕支架該怎麼選-1.jpg"
+                        loading="lazy"
+                        class="portrait-image-600px"
+                        style="border-bottom-right-radius: 0.9375rem; border-top-right-radius: 0.9375rem; overflow: hidden"
+                    />
+                </div>
             </section>
             <style>
                 @media (min-width: 1024px) {
@@ -2961,11 +2979,11 @@
                 }
 
                 .tabs-content.w-tab-content .product-body-14px-gap {
-                    padding-top: 15px;
+                    padding-top: 0.9375rem;
                 }
             </style>
             <!-- Collection -->
-            <section id="Collection" class="section dark-section">
+            <section id="Collection" class="section dark-section" style="margin-top: 0px">
                 <div class="container">
                     <div data-w-id="b4e4318b-1759-679c-3405-fef93a3f405a" class="vertical-center-relative">
                         <div class="mb-40px">
