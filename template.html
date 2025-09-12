@@ -834,7 +834,24 @@
                             <p class="footer-paragraph">
                                 東森全球成立於2006年，專注提供人體工學辦公設備，改善工作環境，預防職業傷害。採用歐盟RoHS環保材質，提升工作效率的同時保護環境，實現企業社會責任。
                             </p>
-                            <div class="w-layout-vflex vertical-15px-gap-left-align" style="padding-top: 15px">
+                            <div class="header-info-block-on-desktop">
+                                <div class="horizontal-left-center-15px-gap">
+                                    <img loading="lazy" src="./public/assets/icons/Telephone.webp" alt="" class="image-35px">
+                                    <div class="w-layout-vflex">
+                                        <div class="_14px-primary-700">聯絡我們</div>
+                                        <a href="tel:+886-2-2226-2887" class="_14px-text" style="color: #fff;">+886-2-2226-2887</a>
+                                    </div>
+                                </div>
+                                <div class="divider-40px-height"></div>
+                                <div class="horizontal-left-center-15px-gap">
+                                    <img loading="lazy" src="./public/assets/icons/Office-Building.webp" alt="" class="image-35px">
+                                    <div class="w-layout-vflex header-info">
+                                        <div class="_14px-primary-700">公司地址</div>
+                                        <a href="https://maps.app.goo.gl/9ZoEGK5XJq4EHzuc7" class="_14px-text" style="color: #fff;" target="_blank">新北市中和區板南路659號9樓</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="w-layout-vflex vertical-15px-gap-left-align" style="padding-top: 15px">
                                 <a href="tel:+886-2-2226-2887" class="horizontal-block-10px-gap">
                                     <div class="footer-icon">phone</div>
                                     <div class="footer-paragraph">+886-2-2226-2887</div>
@@ -843,7 +860,7 @@
                                     <div class="footer-icon">local_library</div>
                                     <div class="footer-paragraph">新北市中和區板南路659號9樓</div>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="footer-block">
                             <div class="footer-title">About</div>
@@ -961,13 +978,13 @@
                 background: -webkit-linear-gradient(-90deg, hsla(94, 55%, 23%, 0.3) 0%, hsla(96, 65%, 10%, 1) 100%) !important;
                 filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#41711A", endColorstr="#162A09", GradientType=1);
             }
-
+            
             .footer-wrapper {
                 margin-top: 0;
                 padding-top: 0;
                 border-top: none;
             }
-
+            
             footer::after {
                 content: '';
                 position: absolute;
@@ -981,6 +998,31 @@
                 background-image: url('./assets/images/MacBook Pro Wallpaper.jpg') !important;
             }
 
+            footer .header-info-block-on-desktop {
+                display: flex !important;
+            }
+
+            footer .header-info-block-on-desktop a._14px-text:hover {
+                color: #d2d2d2 !important;
+            }
+
+            @media screen and (max-width: 992px) {
+                footer .header-info-block-on-desktop .header-info {
+                    max-width: fit-content;
+                }
+            }
+
+            @media screen and (max-width: 640px) {
+                footer .header-info-block-on-desktop {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                }
+                footer .header-info-block-on-desktop .divider-40px-height {
+                    display: none;
+                }
+            }
+            
             .w-webflow-badge {
                 display: none !important;
             }
