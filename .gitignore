@@ -9,6 +9,9 @@ pnpm-debug.log*
 dist/
 build/
 
+# Design files
+designs/
+
 # Environment variables
 .env
 .env.local
