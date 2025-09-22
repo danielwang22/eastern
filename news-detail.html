@@ -134,6 +134,53 @@
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
             }
+            
+            /* 自定義 select 下拉箭頭樣式 */
+            .w-select {
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+                background-repeat: no-repeat;
+                background-position: right 15px center;
+                background-size: 16px;
+                padding-right: 45px !important;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+            
+            .w-select:hover {
+                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236dba28' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+                border-color: #6dba28;
+            }
+            
+            .w-select:focus {
+                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236dba28' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+                outline: none;
+                border-color: #6dba28;
+                box-shadow: 0 0 0 2px rgba(109, 186, 40, 0.2);
+            }
+            
+            /* 針對特定的 select 元素進行額外樣式調整 */
+            .input-field.w-select {
+                border: 2px solid #e7eaee;
+                border-radius: 8px;
+                font-size: 14px;
+                color: #333;
+                background-color: #fff;
+            }
+            
+            .input-field.w-select:hover {
+                border-color: #6dba28;
+                transform: translateY(-1px);
+                box-shadow: 0 4px 12px rgba(109, 186, 40, 0.15);
+            }
+            
+            .input-field.w-select:focus {
+                border-color: #6dba28;
+                transform: translateY(-1px);
+                box-shadow: 0 4px 12px rgba(109, 186, 40, 0.25);
+            }
         </style>
     </head>
 
@@ -1232,8 +1279,9 @@
             <div class="footer-container">
                 <div class="footer-copyright">Copyright © Eastern Global | Designed by Inspire-DT</div>
                 <div class="social-share-icon-container">
-                    <a href="https://www.facebook.com" target="_blank" class="footer-social-icon"></a>
-                    <a href="https://www.instagram.com" target="_blank" class="footer-social-icon"></a>
+                    <a href="https://www.facebook.com/EasternGlobal.Corporation/" target="_blank" class="footer-social-icon"></a>
+                    <a href="https://www.instagram.com/eastern_global/" target="_blank" class="footer-social-icon"></a>
+                    <a href="https://www.youtube.com/@easternglobal3245" target="_blank" class="footer-social-icon"></a>
                 </div>
             </div>
         </footer>
