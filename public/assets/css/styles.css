@@ -1,0 +1,415 @@
+.video-banner {
+    position: relative;
+    width: 100%;
+    max-width: 345px;
+    height: 435px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 響應式設計 */
+@media (min-width: 640px) {
+    .video-banner {
+        aspect-ratio: 16/9;
+        height: auto;
+        max-width: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .video-banner {
+        aspect-ratio: 16/9;
+        max-width: 1400px;
+    }
+}
+
+/* 背景容器 */
+.background-container {
+    position: absolute;
+    inset: 0;
+}
+
+/* 縮圖視圖 */
+.thumbnail-view {
+    position: absolute;
+    inset: 0;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dark-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* 影片容器 */
+.video-container {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+}
+
+.video-container.hidden {
+    display: none;
+}
+
+.video-container iframe {
+    border-radius: 16px;
+    cursor: default;
+    pointer-events: auto;
+}
+
+/* 關閉按鈕 */
+.close-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+    transform-origin: center right;
+}
+
+.close-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: translateY(-50%) scale(1.2);
+}
+
+/* 內容容器 */
+.content-container {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 16px;
+}
+
+/* 影片播放時的內容容器樣式 */
+.video-banner.playing .content-container {
+    cursor: pointer;
+}
+
+@media (min-width: 640px) {
+    .content-container {
+        padding: 48px;
+    }
+}
+
+/* 播放按鈕容器 */
+.play-button-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 播放按鈕 */
+.play-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 640px) {
+    .play-button {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+/* 手機版 hover 效果 */
+.play-button:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.15) 100%);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.6);
+}
+
+/* 平板版 hover 效果 */
+@media (min-width: 640px) {
+    .play-button:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* 桌面版 hover 效果 */
+@media (min-width: 1024px) {
+    .play-button:hover {
+        transform: scale(1.12);
+    }
+}
+
+.play-button.hovered {
+    transform: scale(1.05);
+}
+
+.play-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px oklch(0.6 0.18 130 / 0.5);
+}
+
+.play-button:active .play-button-active {
+    transform: scale(1);
+}
+
+/* 播放圖標容器 */
+.play-icon-container {
+    position: relative;
+    z-index: 10;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+/* 手機版圖標 hover 效果 */
+.play-button:hover .play-icon-container {
+    transform: scale(1.05);
+}
+
+/* 平板版圖標 hover 效果 */
+@media (min-width: 640px) {
+    .play-button:hover .play-icon-container {
+        transform: scale(1.08);
+    }
+}
+
+/* 桌面版圖標 hover 效果 */
+@media (min-width: 1024px) {
+    .play-button:hover .play-icon-container {
+        transform: scale(1.1);
+    }
+}
+
+/* 播放圖標 SVG Container */
+.play-icon-container {
+    width: 32px;
+    height: 32px;
+}
+
+@media (min-width: 640px) {
+    .play-icon-container {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+/* 播放圖標 SVG */
+#playIcon {
+    width: 32px;
+    height: 32px;
+    color: white;
+    fill: currentColor;
+    margin-left: 4px;
+}
+
+@media (min-width: 640px) {
+    #playIcon {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+/* SVG 圖標通用樣式 */
+.lucide {
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* 填充樣式的 SVG */
+.fill-current {
+    fill: currentColor;
+}
+
+/* 關閉按鈕中的 SVG */
+.close-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* 按鈕活動效果 */
+.play-button-active {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(0);
+    transition: transform 0.2s ease;
+}
+
+/* 底部內容 */
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+@media (min-width: 768px) {
+    .text-content {
+        gap: 12px;
+    }
+}
+
+/* 影片標題 */
+.video-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    text-wrap: balance;
+}
+
+@media (min-width: 768px) {
+    .video-title {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .video-title {
+        font-size: 36px;
+    }
+}
+
+/* 影片副標題 */
+.video-subtitle {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    max-width: 768px;
+}
+
+@media (min-width: 768px) {
+    .video-subtitle {
+        font-size: 20px;
+    }
+}
+
+/* 影片元資訊 */
+.video-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 768px) {
+    .video-meta {
+        gap: 16px;
+    }
+}
+
+.duration, .date {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .duration, .date {
+        font-size: 18px;
+    }
+}
+
+.separator {
+    width: 4px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
+
+/* 漸層覆蓋層 */
+.gradient-overlays {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.gradient-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%, transparent 100%);
+}
+
+.gradient-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 33.333333%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+}
+
+/* 隱藏類別 */
+.hidden {
+    display: none !important;
+}
+
+/* 動畫效果 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s ease-in-out;
+}
