@@ -237,7 +237,7 @@
             data-doc-height="1"
         >
             <nav class="navbar-ounded-container">
-                <div class="navbar-main">
+                <div class="navbar-main navbar-transparent">
                     <a href="./index.html" id="HeaderBottomLogo" class="site-logo-wrapper w-nav-brand">
                         <img width="70" loading="lazy" alt="" src="./assets/images/logo-text.png?v=9300ef23" class="site-logo" />
                     </a>
@@ -817,7 +817,26 @@
 
             .navbar-main {
                 box-shadow: 0 10px 50px #0000001c;
-                border: 1px solid #ececec;
+                transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                           box-shadow 0.3s ease-out,
+                           backdrop-filter 0.4s ease-in-out;
+                will-change: border-color, background, backdrop-filter;
+            }
+
+            .navbar-main.navbar-transparent {
+                border: 1px solid rgb(236 236 236 / 34%);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.1) 100%);
+                backdrop-filter: blur(10px) saturate(180%);
+                transform: translateY(0);
+            }
+
+            .navbar-main.navbar-solid {
+                border: 1px solid rgb(236, 236, 236);
+                background: rgba(236, 236, 236, 0.95);
+                backdrop-filter: blur(20px) saturate(200%);
+                transform: translateY(0);
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 
+                           0 2px 6px rgba(0, 0, 0, 0.08);
             }
 
             .nav-link:hover,
@@ -4188,6 +4207,67 @@
                         imageCarouselSwiper.autoplay.start();
                     });
                 }
+
+                // Navbar 透明度控制 - 只在桌面版啟用 (min-width: 1280px)
+                function initNavbarTransparency() {
+                    // 檢查螢幕寬度
+                    if (window.innerWidth < 1280) {
+                        return;
+                    }
+
+                    const navbar = document.querySelector('.navbar-main');
+                    const videoBanner = document.getElementById('videoBanner');
+                    
+                    if (!navbar || !videoBanner) {
+                        return;
+                    }
+
+                    // 初始化時設定為透明狀態
+                    navbar.classList.add('navbar-transparent');
+
+                    // 創建 Intersection Observer
+                    const observer = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            // 當 videoBanner 離開視窗時，切換到實心樣式
+                            if (!entry.isIntersecting) {
+                                navbar.classList.remove('navbar-transparent');
+                                navbar.classList.add('navbar-solid');
+                            } else {
+                                // 當 videoBanner 進入視窗時，檢查是否超過 100px
+                                const rect = entry.boundingClientRect;
+                                const viewportHeight = window.innerHeight;
+                                
+                                // 如果 videoBanner 的底部距離視窗頂部超過 100px，則切換到透明樣式
+                                if (rect.bottom > 100) {
+                                    navbar.classList.remove('navbar-solid');
+                                    navbar.classList.add('navbar-transparent');
+                                }
+                            }
+                        });
+                    }, {
+                        // 設定 rootMargin 來微調觸發時機
+                        rootMargin: '0px 0px -100px 0px',
+                        threshold: [0, 0.1]
+                    });
+
+                    // 開始觀察 videoBanner
+                    observer.observe(videoBanner);
+
+                    // 監聽視窗大小變化，如果小於 1280px 則停止觀察並清除樣式
+                    window.addEventListener('resize', () => {
+                        if (window.innerWidth < 1280) {
+                            observer.disconnect();
+                            navbar.classList.remove('navbar-solid', 'navbar-transparent');
+                        } else {
+                            // 重新啟用時，重新設定為透明狀態
+                            navbar.classList.add('navbar-transparent');
+                            observer.observe(videoBanner);
+                        }
+                    });
+                }
+
+                // 初始化 navbar 透明度控制
+                initNavbarTransparency();
             });
         </script>
     </body>
