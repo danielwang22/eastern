@@ -132,7 +132,7 @@
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
             }
-            
+
             /* 自定義 select 下拉箭頭樣式 */
             .w-select {
                 appearance: none;
@@ -146,19 +146,19 @@
                 cursor: pointer;
                 transition: all 0.3s ease;
             }
-            
+
             .w-select:hover {
                 background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236dba28' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
                 border-color: #6dba28;
             }
-            
+
             .w-select:focus {
                 background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236dba28' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
                 outline: none;
                 border-color: #6dba28;
                 box-shadow: 0 0 0 2px rgba(109, 186, 40, 0.2);
             }
-            
+
             /* 針對特定的 select 元素進行額外樣式調整 */
             .input-field.w-select {
                 border: 2px solid #e7eaee;
@@ -167,19 +167,19 @@
                 color: #333;
                 background-color: #fff;
             }
-            
+
             .input-field.w-select:hover {
                 border-color: #6dba28;
                 transform: translateY(-1px);
                 box-shadow: 0 4px 12px rgba(109, 186, 40, 0.15);
             }
-            
+
             .input-field.w-select:focus {
                 border-color: #6dba28;
                 transform: translateY(-1px);
                 box-shadow: 0 4px 12px rgba(109, 186, 40, 0.25);
             }
-            
+
             /* 產品卡片樣式 */
             .product-thumbnail-wrapper-with-bg {
                 max-height: 343.3px !important;
@@ -192,19 +192,19 @@
                 object-fit: cover;
             }
         </style>
-        
+
         <!-- Swiper CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        
+
         <!-- Lightbox2 CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
-        
+
         <!-- jQuery (Lightbox2 依賴) -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        
+
         <!-- Lightbox2 JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
-        
+
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
@@ -256,6 +256,14 @@
                             <div class="nav-list">
                                 <a href="/index.html" class="nav-link w-inline-block">
                                     <div>首頁</div>
+                                </a>
+                                <div class="mask">
+                                    <div class="nav-border"></div>
+                                </div>
+                            </div>
+                            <div class="nav-list">
+                                <a href="/index2.html" class="nav-link w-inline-block">
+                                    <div>首頁2</div>
                                 </a>
                                 <div class="mask">
                                     <div class="nav-border"></div>
@@ -549,12 +557,7 @@
                                 data-node-type="commerce-cart-open-link"
                                 href="#"
                             >
-                                <img
-                                    loading="lazy"
-                                    src="./assets/icons/icon-order.svg"
-                                    alt=""
-                                    class="icon-svg-20-px"
-                                />
+                                <img loading="lazy" src="./assets/icons/icon-order.svg" alt="" class="icon-svg-20-px" />
                                 <div class="w-commerce-commercecartopenlinkcount cart-quantity-primary">0</div>
                             </a>
                             <div
@@ -3068,73 +3071,121 @@
                         <div class="swiper-wrapper">
                             <!-- Slide 1 - Colombia -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/Colombia_00.jpg" data-lightbox="success-stories" data-title="哥倫比亞成功案例 - 東森全球螢幕支架解決方案">
+                                <a
+                                    href="./assets/images/success_stories/Colombia_00.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="哥倫比亞成功案例 - 東森全球螢幕支架解決方案"
+                                >
                                     <img src="./assets/images/success_stories/Colombia_00.jpg" alt="哥倫比亞成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 2 - Colombia -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/Colombia_01.jpg" data-lightbox="success-stories" data-title="哥倫比亞成功案例 - 專業辦公環境螢幕支架配置">
+                                <a
+                                    href="./assets/images/success_stories/Colombia_01.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="哥倫比亞成功案例 - 專業辦公環境螢幕支架配置"
+                                >
                                     <img src="./assets/images/success_stories/Colombia_01.jpg" alt="哥倫比亞成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 3 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_00.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 人體工學螢幕支架應用">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_00.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 人體工學螢幕支架應用"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_00.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 4 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_01.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 多螢幕工作站解決方案">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_01.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 多螢幕工作站解決方案"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_01.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 5 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_02.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 現代辦公室螢幕支架配置">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_02.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 現代辦公室螢幕支架配置"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_02.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 6 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_03.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 高效能工作環境設計">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_03.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 高效能工作環境設計"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_03.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 7 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_06.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 專業級螢幕支架系統">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_06.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 專業級螢幕支架系統"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_06.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 8 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_07.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 創新辦公空間螢幕配置">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_07.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 創新辦公空間螢幕配置"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_07.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 9 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_08.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 企業級螢幕支架解決方案">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_08.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 企業級螢幕支架解決方案"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_08.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 10 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_09.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 智能辦公環境螢幕系統">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_09.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 智能辦公環境螢幕系統"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_09.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 11 - New Zealand -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/New Zealand_10.jpg" data-lightbox="success-stories" data-title="紐西蘭成功案例 - 高品質螢幕支架應用實例">
+                                <a
+                                    href="./assets/images/success_stories/New Zealand_10.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="紐西蘭成功案例 - 高品質螢幕支架應用實例"
+                                >
                                     <img src="./assets/images/success_stories/New Zealand_10.jpg" alt="紐西蘭成功案例" />
                                 </a>
                             </div>
                             <!-- Slide 12 - Philippines -->
                             <div class="swiper-slide">
-                                <a href="./assets/images/success_stories/Philippines_00.jpg" data-lightbox="success-stories" data-title="菲律賓成功案例 - 東森全球螢幕支架專業服務">
+                                <a
+                                    href="./assets/images/success_stories/Philippines_00.jpg"
+                                    data-lightbox="success-stories"
+                                    data-title="菲律賓成功案例 - 東森全球螢幕支架專業服務"
+                                >
                                     <img src="./assets/images/success_stories/Philippines_00.jpg" alt="菲律賓成功案例" />
                                 </a>
                             </div>
@@ -3217,7 +3268,9 @@
                     object-fit: cover;
                     border-radius: 8px;
                     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    transition:
+                        transform 0.3s ease,
+                        box-shadow 0.3s ease;
                 }
 
                 .image-carousel-swiper .swiper-slide img:hover {
@@ -3236,7 +3289,6 @@
                     transform: translateY(-2px);
                     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
                 }
-
 
                 .image-carousel-swiper .swiper-slide {
                     position: relative;
@@ -3305,7 +3357,7 @@
                     .image-carousel-container {
                         padding: 0 0.5rem;
                     }
-                    
+
                     .image-carousel-swiper .swiper-slide {
                         max-width: 320px;
                         margin-right: 10px;
@@ -3910,18 +3962,24 @@
                             </p>
                             <div class="header-info-block-on-desktop">
                                 <div class="horizontal-left-center-15px-gap">
-                                    <img loading="lazy" src="./assets/icons/Telephone.webp" alt="" class="image-35px">
+                                    <img loading="lazy" src="./assets/icons/Telephone.webp" alt="" class="image-35px" />
                                     <div class="w-layout-vflex">
                                         <div class="_14px-primary-700">聯絡我們</div>
-                                        <a href="tel:+886-2-2226-2887" class="_14px-text" style="color: #fff;">+886-2-2226-2887</a>
+                                        <a href="tel:+886-2-2226-2887" class="_14px-text" style="color: #fff">+886-2-2226-2887</a>
                                     </div>
                                 </div>
                                 <div class="divider-40px-height"></div>
                                 <div class="horizontal-left-center-15px-gap">
-                                    <img loading="lazy" src="./assets/icons/Office-Building.webp" alt="" class="image-35px">
-                                    <div class="w-layout-vflex header-info" style="white-space: nowrap;">
+                                    <img loading="lazy" src="./assets/icons/Office-Building.webp" alt="" class="image-35px" />
+                                    <div class="w-layout-vflex header-info" style="white-space: nowrap">
                                         <div class="_14px-primary-700">公司地址</div>
-                                        <a href="https://maps.app.goo.gl/9ZoEGK5XJq4EHzuc7" class="_14px-text" style="color: #fff;" target="_blank">新北市中和區板南路659號9樓</a>
+                                        <a
+                                            href="https://maps.app.goo.gl/9ZoEGK5XJq4EHzuc7"
+                                            class="_14px-text"
+                                            style="color: #fff"
+                                            target="_blank"
+                                            >新北市中和區板南路659號9樓</a
+                                        >
                                     </div>
                                 </div>
                             </div>
@@ -4049,13 +4107,13 @@
                 background: -webkit-linear-gradient(-90deg, hsla(94, 55%, 23%, 0.3) 0%, hsla(96, 65%, 10%, 1) 100%) !important;
                 filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#41711A", endColorstr="#162A09", GradientType=1);
             }
-            
+
             .footer-wrapper {
                 margin-top: 0;
                 padding-top: 0;
                 border-top: none;
             }
-            
+
             footer::after {
                 content: '';
                 position: absolute;
@@ -4093,32 +4151,32 @@
                     display: none;
                 }
             }
-            
+
             .w-webflow-badge {
                 display: none !important;
             }
         </style>
-        
+
         <!-- 圖片跑馬燈 JavaScript 初始化 -->
         <script>
             // 使用 jQuery 確保 Lightbox2 正確初始化
-            $(document).ready(function() {
+            $(document).ready(function () {
                 // 檢查 lightbox 是否可用
                 if (typeof lightbox !== 'undefined') {
                     try {
                         lightbox.option({
-                            'resizeDuration': 200,
-                            'wrapAround': true,
-                            'albumLabel': '圖片 %1 / %2',
-                            'fadeDuration': 300,
-                            'imageFadeDuration': 300,
-                            'showImageNumberLabel': true,
-                            'alwaysShowNavOnTouchDevices': true,
-                            'fitImagesInViewport': true,
-                            'maxWidth': 1200,
-                            'maxHeight': 800,
-                            'positionFromTop': 50,
-                            'disableScrolling': true
+                            resizeDuration: 200,
+                            wrapAround: true,
+                            albumLabel: '圖片 %1 / %2',
+                            fadeDuration: 300,
+                            imageFadeDuration: 300,
+                            showImageNumberLabel: true,
+                            alwaysShowNavOnTouchDevices: true,
+                            fitImagesInViewport: true,
+                            maxWidth: 1200,
+                            maxHeight: 800,
+                            positionFromTop: 50,
+                            disableScrolling: true,
                         });
                         console.log('Lightbox2 初始化成功');
                     } catch (error) {
@@ -4130,7 +4188,6 @@
             });
 
             document.addEventListener('DOMContentLoaded', function () {
-
                 // 初始化圖片跑馬燈 Swiper
                 const imageCarouselSwiper = new Swiper('.image-carousel-swiper', {
                     // 基本設定
@@ -4138,17 +4195,17 @@
                     spaceBetween: 15,
                     centeredSlides: false,
                     loop: true,
-                    
+
                     // 自動播放設定
                     autoplay: {
                         delay: 3000,
                         disableOnInteraction: false,
                         pauseOnMouseEnter: true,
                     },
-                    
+
                     // 速度設定
                     speed: 1000,
-                    
+
                     // 響應式斷點
                     breakpoints: {
                         320: {
@@ -4159,18 +4216,18 @@
                         },
                         1024: {
                             spaceBetween: 15,
-                        }
-                    }
+                        },
+                    },
                 });
 
                 // 滑鼠懸停暫停/恢復播放
                 const swiperContainer = document.querySelector('.image-carousel-swiper');
                 if (swiperContainer) {
-                    swiperContainer.addEventListener('mouseenter', function() {
+                    swiperContainer.addEventListener('mouseenter', function () {
                         imageCarouselSwiper.autoplay.stop();
                     });
-                    
-                    swiperContainer.addEventListener('mouseleave', function() {
+
+                    swiperContainer.addEventListener('mouseleave', function () {
                         imageCarouselSwiper.autoplay.start();
                     });
                 }
