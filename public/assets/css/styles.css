@@ -23,7 +23,8 @@
 @media (min-width: 1280px) {
     .video-banner {
         aspect-ratio: 16/9;
-        max-width: 1400px;
+        max-width: 100vw;
+        border-radius: 0px;
     }
 }
 
@@ -64,7 +65,7 @@
 }
 
 .video-container iframe {
-    border-radius: 16px;
+    /* border-radius: 16px; */
     cursor: default;
     pointer-events: auto;
 }
@@ -124,6 +125,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 1280px) {
+    .play-button-container {
+        transform: translateY(72px);
+    }
 }
 
 /* 播放按鈕 */
