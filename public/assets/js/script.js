@@ -5,6 +5,7 @@ class VideoBanner {
         this.isPlaying = false;
         this.isHovered = false;
         this.showPlayButton = true;
+        this.enableLoop = true; // 啟用循環播放
         
         // YouTube 影片 ID（從原始 iframe 中提取）
         this.youtubeEmbedId = 'Jz2OveGX4UY';
@@ -188,8 +189,16 @@ class VideoBanner {
     
     // 顯示影片
     showVideo() {
-        // 設置 YouTube iframe 的 src，啟用 API 和事件監聽
-        const youtubeUrl = `https://www.youtube.com/embed/${this.youtubeEmbedId}?autoplay=1&si=Ue29b3zi-VJsrDNc&enablejsapi=1&origin=${window.location.origin}`;
+        // 建構 YouTube URL 參數
+        let urlParams = `autoplay=1&si=Ue29b3zi-VJsrDNc&enablejsapi=1&origin=${window.location.origin}`;
+        
+        // 如果啟用循環播放，添加相關參數
+        if (this.enableLoop) {
+            urlParams += `&loop=1&playlist=${this.youtubeEmbedId}`;
+        }
+        
+        // 設置 YouTube iframe 的 src
+        const youtubeUrl = `https://www.youtube.com/embed/${this.youtubeEmbedId}?${urlParams}`;
         this.youtubeIframe.src = youtubeUrl;
         
         // 隱藏縮圖視圖和相關元素
@@ -279,9 +288,14 @@ class VideoBanner {
                             }
                         }, 1000); // 1秒延遲，避免誤觸
                     } else if (data.info && data.info.playerState === 0) {
-                        // 影片播放結束，自動關閉
-                        console.log('YouTube 影片播放結束，自動關閉影片');
-                        this.handleCloseVideo();
+                        // 影片播放結束
+                        if (this.enableLoop) {
+                            console.log('YouTube 影片播放結束，循環播放中...');
+                            // 循環播放啟用時不關閉影片
+                        } else {
+                            console.log('YouTube 影片播放結束，自動關閉影片');
+                            this.handleCloseVideo();
+                        }
                     }
                 }
             } catch (e) {
@@ -381,6 +395,17 @@ class VideoBanner {
             return autoplayValue === 'true' || autoplayValue === '1';
         }
         return false;
+    }
+    
+    // 公共方法：設置循環播放
+    setLoop(enableLoop) {
+        this.enableLoop = enableLoop;
+        console.log('設置循環播放:', enableLoop);
+    }
+    
+    // 公共方法：獲取循環播放設定
+    getLoop() {
+        return this.enableLoop;
     }
 }
 
