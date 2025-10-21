@@ -24,6 +24,7 @@
     .video-banner {
         aspect-ratio: 16/9;
         max-width: 100vw;
+        max-height: 100vh;
         border-radius: 0px;
     }
 }
